@@ -1,0 +1,14 @@
+{
+  "name": "aiworkhabits",
+  "owner": { "name": "AI Work Habits" },
+  "metadata": { "description": "The skills I use for my own work, free to take." },
+  "plugins": [
+    {
+      "name": "done",
+      "description": "Wrap up a finished task: check it, list what's missing, tidy up, save what matters.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/done"]
+    }
+  ]
+}
